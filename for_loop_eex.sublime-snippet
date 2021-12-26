@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<%= for ${1:thing} <- ${1}s do %>
+  $2
+<% end %>
+]]></content>
+  <tabTrigger>for</tabTrigger>
+  <scope>text.elixir,text.html.elixir,text.html.heex</scope>
+</snippet>

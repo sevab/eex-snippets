@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+<%= link "${1:text}", to: ${2:url} %>
+]]></content>
+  <tabTrigger>lt</tabTrigger>
+  <scope>text.elixir,text.html.elixir,text.html.heex</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+<%= render "${1:partial}.html", ${2:local_var: @local} %>
+]]></content>
+  <tabTrigger>render</tabTrigger>
+  <scope>text.elixir,text.html.elixir,text.html.heex</scope>
+</snippet>

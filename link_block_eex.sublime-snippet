@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<%= link to: ${1:url} do %>
+  ${2:text}
+<% end %>
+]]></content>
+  <tabTrigger>ltb</tabTrigger>
+  <scope>text.elixir,text.html.elixir,text.html.heex</scope>
+</snippet>

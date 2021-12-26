@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<%= if $1 do %>
+  $2
+<% else %>
+  $0
+<% end %>
+]]></content>
+  <tabTrigger>ife</tabTrigger>
+  <scope>text.elixir,text.html.elixir,text.html.heex</scope>
+</snippet>

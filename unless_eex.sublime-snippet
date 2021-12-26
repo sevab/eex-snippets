@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<%= unless ${1} do %>
+  $2
+<% end %>
+]]></content>
+  <tabTrigger>unless</tabTrigger>
+  <scope>text.elixir,text.html.elixir,text.html.heex</scope>
+</snippet>
+
+
